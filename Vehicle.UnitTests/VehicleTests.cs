@@ -19,10 +19,16 @@ namespace Vehicle.UnitTests
             Vehicle andysBike = new Vehicle(2, "Blue");
 
             var expected = "This Blue vehicle has 2 wheels and has driven 0 miles";
+            
 
 
         }
 
         // Add more tests here!
+        [Fact]
+        public void CalculateMiles()
+        {
+            
+        }
     }
 }
