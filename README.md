@@ -28,16 +28,23 @@ Edit this `README.md` file - answer the BLANK questions before moving on to the 
     C. `var bench = new(24, true);`  
     D. `Chair bench = new(24, true);`  
     
+    C. C does not work because it's not being specified that we want a new instance of "Chair".
+    
 2. Imagine you are interviewing for your first job.  The interviewer asks "What can you tell me about OOP?".  Write your response below:
 
+OOP is a type of coding where we can use objects to formulate blocks of code in our program. We can create and use objects that have methods in our program. In a class, we can write out exactly what we want the method to do when it's being used.
 
 3. What is Automated Testing?
 
+Automated testing is creating a second project in a program to test the code we've written. This second project is used to make sure any and all methods that have been created in a class are working properly.
 
 4. What are some benefits of creating tests for our projects?
 
+Creating tests gives the programmer an oportunity to assess public properties in a class. This allows the programmer to make sure properties that are meant for the user to see are working as expected.
 
 5. When you create a test project, you do not immediately have access to the class(es) in the project that you are testing.  What do you need to do in order to have access to those classes?
+
+To get access to the properties in a class, you first need to add a project reference. You do this by right clicking on the test project, going to "Add" in the drop down menu, and then "Project Reference..." where you can select the class.
 
 6. Take a look at the class below.  Write out the **names** of each test you would write to verify that this class is working.
 ```c#
@@ -71,8 +78,10 @@ Edit this `README.md` file - answer the BLANK questions before moving on to the 
         }
     }
 ```
-
-
+1. public void ConstructorSetsValues()
+2. public void ReturnSummary()
+3. public void CalculateMiles()
+4. public void SetsNewColor()
 
 ## Exercise (8 Points Possible)
 In Visual Studio, clone your forked repository.  
